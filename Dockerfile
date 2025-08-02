@@ -1,4 +1,4 @@
-# Dockerfile
+# Dockerfile to build a FastAPI application for diabetes prediction
 FROM python:3.10
 WORKDIR /app
 COPY . /app

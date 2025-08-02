@@ -4,9 +4,11 @@ from pydantic import BaseModel
 import joblib
 import numpy as np
 
+# Load the trained model
 app = FastAPI()
 model = joblib.load("diabetes_model.pkl")
 
+# Define the input data model
 class DiabetesInput(BaseModel):
     Pregnancies: int
     Glucose: float
@@ -18,6 +20,7 @@ class DiabetesInput(BaseModel):
 def read_root():
     return {"message": "Diabetes Prediction API is live"}
 
+# Endpoint for prediction
 @app.post("/predict")
 def predict(data: DiabetesInput):
     input_data = np.array([[data.Pregnancies, data.Glucose, data.BloodPressure, data.BMI, data.Age]])

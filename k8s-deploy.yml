@@ -1,3 +1,5 @@
+# k8s-deploy.yml
+# This file contains the Kubernetes deployment and service configuration for the diabetes prediction API.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
