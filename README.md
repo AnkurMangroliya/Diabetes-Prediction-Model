@@ -1,6 +1,6 @@
 # 🩺 Diabetes Prediction Model – MLOps Project (FastAPI + Docker + K8s)
 
-This project helps you learn **Building and Deploying an ML Model** using a simple and real-world use case: predicting whether a person is diabetic based on health metrics. We’ll go from:
+I built this project to demonstrate the end-to-end process of building and deploying a machine learning model using a real-world use case: predicting whether a person is diabetic based on health metrics.
 
 - ✅ Model Training
 - ✅ Building the Model locally
