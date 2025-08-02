@@ -2,11 +2,11 @@
 
 I built this project to demonstrate the end-to-end process of building and deploying a machine learning model using a real-world use case: predicting whether a person is diabetic based on health metrics.
 
-- ✅ Model Training
-- ✅ Building the Model locally
-- ✅ API Deployment with FastAPI
-- ✅ Dockerization
-- ✅ Kubernetes Deployment
+-  Model Training
+-  Building the Model locally
+-  API Deployment with FastAPI
+-  Dockerization
+-  Kubernetes Deployment
 
 ---
 
